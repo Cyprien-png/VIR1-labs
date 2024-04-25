@@ -26,30 +26,30 @@ IntelliJ IDEA Ultimate 2024.1 was installed from JetBrains Toolbox with the defa
 ```
 > docker version
 Client:
- Cloud integration: v1.0.35+desktop.5
- Version:           24.0.7
- API version:       1.43
- Go version:        go1.20.10
- Git commit:        afdd53b
- Built:             Thu Oct 26 09:08:44 2023
+ Cloud integration: v1.0.35+desktop.13
+ Version:           26.0.0
+ API version:       1.45
+ Go version:        go1.21.8
+ Git commit:        2ae903e
+ Built:             Wed Mar 20 15:18:56 2024
  OS/Arch:           windows/amd64
  Context:           default
 
-Server: Docker Desktop 4.26.1 (131620)
+Server: Docker Desktop 4.29.0 (145265)
  Engine:
-  Version:          24.0.7
-  API version:      1.43 (minimum version 1.12)
-  Go version:       go1.20.10
-  Git commit:       311b9ff
-  Built:            Thu Oct 26 09:08:02 2023
+  Version:          26.0.0
+  API version:      1.45 (minimum version 1.24)
+  Go version:       go1.21.8
+  Git commit:       8b79278
+  Built:            Wed Mar 20 15:18:01 2024
   OS/Arch:          linux/amd64
   Experimental:     false
  containerd:
-  Version:          1.6.25
-  GitCommit:        d8f198a4ed8892c764191ef7b3b06d8a2eeb5c7f
+  Version:          1.6.28
+  GitCommit:        ae07eda36dd25f8a1b98dfbf587313b99c0190bb
  runc:
-  Version:          1.1.10
-  GitCommit:        v1.1.10-0-g18a0cb0
+  Version:          1.1.12
+  GitCommit:        v1.1.12-0-g51d5e94
  docker-init:
   Version:          0.19.0
   GitCommit:        de40ad0
@@ -59,7 +59,7 @@ Server: Docker Desktop 4.26.1 (131620)
 
 ```
 > git -v
-git version 2.43.0.windows.1
+git version 2.44.0.windows.1
 
 > git flow version
 1.12.3 (AVH Edition)
@@ -110,19 +110,19 @@ Answer the questions below, giving reasons for your answer (link, source).
 * How does the AWS Cli interact with the cloud ?
 
 ```
-//TODO answer the question
+by using HTTPS on TCP port 443.
 ```
 
 * What other ways do we have of dialoguing/interacting with the AWS cloud if we wanted to do without the CLI?
 
 ```
-//TODO answer the question
+Using the web interface.
 ```
 
 * What commands do I need to run in the CLI to start an ec2 instance?
 
 ```
-//TODO answer the question
+$ aws ec2 start-instances --instance-ids i-1348636c
 ```
 
 ### Docker Engine
@@ -130,13 +130,13 @@ Answer the questions below, giving reasons for your answer (link, source).
 * What type of hypervisor does Docker use?
 
 ```
-//TODO answer the question
+In the case of Windows, Docker uses Hyper-V which is in-built virtualization technology provided by Windows
 ```
 
 * What role does the Docker Desktop play in the Docker architecture?
 
 ```
-//TODO answer the question
+It's the client
 ```
 
 ### Java Environment
@@ -144,7 +144,7 @@ Answer the questions below, giving reasons for your answer (link, source).
 * JDK, JRE, JVM... what's the difference?
 
 ```
-//TODO answer the question
+JDK is the development platform, while JRE is for execution. JVM is the foundation, or the heart of Java programming language.
 ```
 
 ### Maven
@@ -152,7 +152,7 @@ Answer the questions below, giving reasons for your answer (link, source).
 * What is the command you need to use Maven to retrieve dependencies (and only that)?
 
 ```
-//TODO answer the question
+./mvnw versions:display-dependency-updates
 ```
 
 
