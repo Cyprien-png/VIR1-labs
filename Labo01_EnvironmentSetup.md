@@ -98,7 +98,7 @@ Show your development environment, mentioning all the components in the stack.
 Identify the links between components.
 
 ```
-//TODO Schema
+![image](https://github.com/Cyprien-png/VIR1-labs/assets/61788240/e35d8b1c-fe00-4ff6-9d9d-6f3a56f81f35)
 ```
 
 ## Analysis
