@@ -97,7 +97,7 @@ Show your development environment, mentioning all the components in the stack.
 
 Identify the links between components.
 
-![image](https://github.com/Cyprien-png/VIR1-labs/assets/61788240/c55ee0a7-bf4e-4ed6-b57f-7f7dde2ccf26)
+![Group 1](https://github.com/Cyprien-png/VIR1-labs/assets/61788240/b3150437-b96f-4e8d-b2ee-3ec41d89d1c8)
 
 
 ## Analysis
